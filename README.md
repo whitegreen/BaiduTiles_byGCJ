@@ -1,10 +1,12 @@
 # BaiduTiles_byGCJ
-download Baidu 19-level tiles by GCJ coordinates
+download Baidu 19-level map by GCJ coordinates
 
-baiduTiles.py download a map (made of 25 tiles from Baidu API) of a given GCJ coordinates. One can configure the number of tiles by setting e.g.
+baiduTiles.py download a map (made of 25 tiles from Baidu API) for a given GCJ coordinates. Configure the number of tiles by setting e.g.
 
 dd=3
 
-to get a map of 49 tiles ( number = (2*dd+1)^2 ).
+to obtain a map of 49 tiles. number = (2*dd+1)^2.
+![image](https://github.com/whitegreen/BaiduTiles_byGCJ/blob/main/final_map18.jpg)
 
-baiduTiles.py download multiples maps from many GCJ coordinates stored in an excel table.
+baiduTiles.py download multiples maps from a list of GCJ coordinates in an excel table.
+![image](https://github.com/whitegreen/BaiduTiles_byGCJ/blob/main/folder.jpg)
