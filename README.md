@@ -7,8 +7,8 @@ dd=3
 
 to obtain a map of 49 tiles. number = (2*dd+1)^2.
 
-![image](https://github.com/whitegreen/BaiduTiles_byGCJ/blob/main/final_map18.jpg)
+![image](final_map18.jpg)
 
 baiduTiles.py download multiples maps from a list of GCJ coordinates in an excel table.
 
-![image](https://github.com/whitegreen/BaiduTiles_byGCJ/blob/main/folder.jpg)
+![image](folder.jpg)
