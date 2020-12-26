@@ -1,11 +1,5 @@
-# from coord_convert.transform import wgs2gcj, wgs2bd, gcj2wgs, gcj2bd, bd2wgs, bd2gcj
 from math import sin, cos, sqrt, fabs, atan2
 from math import pi as PI
-
-# lon, lat = 120, 40
-# gcj_lon, gcj_lat = wgs2gcj(lon, lat)
-# bd_lon, bd_lat = wgs2bd(lon, lat)
-# print(gcj_lon, gcj_lat) # the result should be: 120.00567568355486 40.0013047896019
 
 agent_list =[
 "Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; Nexus S Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
@@ -94,7 +88,7 @@ def converter(x, y, param):
     cF *= -1 if y < 0 else 1  # (y < 0 ? -1 : 1)
     return T, cF
 
-def convertLonLatToMC(lon, lat):  # 百度坐标转墨卡托
+def convertLonLatToMC(lon, lat): 
     arr = []
     for i in range(len(array1)):
         if lat >= array1[i]:
